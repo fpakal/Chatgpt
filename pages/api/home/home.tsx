@@ -359,15 +359,13 @@ const Home = ({
         handleUpdateConversation,
       }}
     >
-      <Head>
-        <title>Chatbot UI</title>
-        <meta name="description" content="ChatGPT but better." />
-        <meta
-          name="viewport"
-          content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+     <Head>
+  <title>ChatGPT1.org by Don Memon</title>
+  <meta name="description" content="Experience the power of AI with our advanced chatbot. Leveraging the capabilities of GPT-3, our chatbot provides accurate responses and includes a search function for quick information retrieval. Ideal for anyone looking to interact with cutting-edge AI technology." />
+  <meta name="viewport" content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="icon" href="/favicon.ico" />
+</Head>
+
       {selectedConversation && (
         <main
           className={`flex h-screen w-screen flex-col text-sm text-white dark:text-white ${lightMode}`}
